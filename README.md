@@ -10,17 +10,20 @@ My work focuses on **security monitoring, alert investigation, threat detection,
 
 # 🛠 Technical Skills
 
-### Security Operations & Detection
-Wazuh SIEM • Suricata IDS • Alert Triage • Incident Response • Log Analysis • MITRE ATT&CK • Wireshark
+### SIEM & Detection Engineering
+Wazuh • Sysmon • Sigma Rules • MITRE ATT&CK • Alert Triage • Log Analysis • Incident Response
 
-### Network & Infrastructure Security
+### Network Security & Infrastructure
 Palo Alto • FortiGate • Checkpoint • Cisco ASA / FTD • IDS/IPS • VPN • NAT • ACL Tuning • High Availability
 
-### Digital Forensics
-Autopsy • FTK Imager • Registry Analysis • Static & Dynamic Malware Analysis
+### Security Monitoring & Analysis
+Wireshark • tcpdump • Nmap • Network Traffic Analysis
 
-### Tools & Scripting
-Python (Basic) • Nmap • tcpdump
+### Virtualization & Lab Environment
+pfSense • Suricata IDS • Kali Linux • VMware
+
+### Scripting & Automation
+Python (learning)
 
 ### Operating Systems
 Linux • Windows
@@ -36,34 +39,54 @@ Linux • Windows
 
 ---
 
-## 🛠 Tools & Technologies
+## 🏗 SOC Lab Architecture
 
-**SIEM / Detection**
-- Wazuh
-- Sysmon
-- Sigma Rules
-- MITRE ATT&CK
+This home lab simulates a small enterprise environment designed to test attack detection, log analysis, and SOC monitoring workflows.
 
-**Networking & Security**
-- pfSense
-- Suricata IDS
-- Kali Linux
-- VMware
-
-**Other**
-- Python (learning)
-- Linux
-- Windows Security Logs
+```
+Kali Linux (Attacker)
+        ↓
+pfSense Firewall
+        ↓
+Suricata IDS
+        ↓
+------------ Internal Network ------------
+        ↓
+Windows Domain Controller (Active Directory)
+        ↓
+------------------------------------------
+|                                        |
+Windows Endpoint + Sysmon           Linux Endpoint
+|                                        |
+------------ Log Forwarding -------------
+        ↓
+Wazuh SIEM
+                  
+```
 
 ---
 
-## 📂 Featured Projects (In Progress)
+## 📂 Featured Projects
 
-🔹 SOC Detection Lab – Wazuh + Sysmon  
-🔹 Network Segmentation Lab using pfSense  
-🔹 Attack Simulation Lab (Nmap, Brute Force, PowerShell)  
+### 🔹 SOC Detection Lab – Wazuh + Sysmon
+- Built a multi-host SOC lab using Wazuh SIEM to centralize security telemetry from Windows, Linux, and network sources.
+- Configured **Sysmon on Windows endpoints** to generate detailed process and authentication logs.
+- Simulated attacker activity using Kali Linux to generate reconnaissance and brute-force telemetry for detection testing.
+- Analyzed and correlated security events within Wazuh for **alert triage and investigation workflows**.
 
-These projects focus on **simulating attacker behavior and building detection capabilities similar to real SOC environments**.
+### 🔹 Network Segmentation Lab – pfSense
+- Implemented network segmentation using pfSense firewall to simulate enterprise network boundaries and traffic isolation.
+- Configured firewall rules, NAT policies, and interface routing to control traffic between lab hosts.
+- Integrated **Suricata IDS** for network traffic inspection and threat detection.
+- Tested segmentation effectiveness by simulating reconnaissance and unauthorized access attempts.
+
+### 🔹 Attack Simulation Lab – Nmap, Brute Force, PowerShell
+- Simulated reconnaissance and brute-force attacks using **Nmap scanning and authentication attacks**.
+- Generated Windows security telemetry using **PowerShell activity and Sysmon logs**.
+- Validated detection visibility across **endpoint logs and network IDS alerts**.
+- Used attack simulations to test **SOC monitoring and detection capabilities** in the lab environment. 
+
+These projects focus on simulating attacker behavior and developing detection capabilities similar to real-world SOC environments.
 
 ---
 
