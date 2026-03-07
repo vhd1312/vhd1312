@@ -1,20 +1,38 @@
 ## Hi, I'm Varuni Desai 👋
 
-🔐 Cybersecurity Graduate Student | Blue Team | SOC Analyst  
+🔐 Cybersecurity Analyst | Blue Team | SOC | Detection Engineering  
 
-I am currently pursuing a **Master’s in Cybersecurity at UNC Charlotte** and actively building hands-on labs to strengthen my skills in **Security Operations, Detection Engineering, and Threat Monitoring**.
+I am a Cybersecurity graduate student at the University of North Carolina at Charlotte with **3.5+ years of professional experience in network security and security operations**.  
 
-With **3.5+ years of experience in Network Security**, I have worked with enterprise firewall deployments, VPN and network segmentation across large-scale environments. I am now focusing on expanding my expertise in **SOC operations, SIEM analysis, and threat detection**.
+My work focuses on **security monitoring, alert investigation, threat detection, and network defense**. I am currently building hands-on labs to strengthen my skills in **SOC operations, SIEM analysis, and detection engineering**.
+
+---
+
+# 🛠 Technical Skills
+
+### Security Operations & Detection
+Wazuh SIEM • Suricata IDS • Alert Triage • Incident Response • Log Analysis • MITRE ATT&CK • Wireshark
+
+### Network & Infrastructure Security
+Palo Alto • FortiGate • Checkpoint • Cisco ASA / FTD • IDS/IPS • VPN • NAT • ACL Tuning • High Availability
+
+### Digital Forensics
+Autopsy • FTK Imager • Registry Analysis • Static & Dynamic Malware Analysis
+
+### Tools & Scripting
+Python (Basic) • Nmap • tcpdump
+
+### Operating Systems
+Linux • Windows
 
 ---
 
 ## 🔎 What I'm Currently Working On
 
-• Building a **SOC Home Lab using Wazuh SIEM**  
-• Implementing **Sysmon + Sigma based detection rules**  
-• Testing attack scenarios such as **Nmap scanning, brute force attacks, and PowerShell activity**  
-• Integrating **Suricata IDS for network-based threat detection**  
-• Learning **Python for security automation**
+• Building a **SOC Detection Lab using Wazuh SIEM and Suricata IDS**  
+• Simulating attacker activity using **Kali Linux (Nmap, brute force, scans)**  
+• Developing detection logic using **Sysmon logs and custom rules**  
+• Learning **Python for security automation and log analysis**
 
 ---
 
@@ -61,6 +79,16 @@ Coursework Focus:
 - Intrusion Detection Systems
 - Network Security
 - Incident Response
+
+---
+
+
+# 📜 Certifications
+
+• CompTIA Security+  
+• ISC2 Certified in Cybersecurity (CC)  
+• Cisco Certified Network Professional – Security  
+• FortiGate Certified Network Security Associate  
 
 ---
 
