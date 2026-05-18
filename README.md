@@ -2,6 +2,22 @@
 
 🔐 Cybersecurity Analyst | Blue Team | SOC | Detection Engineering  
 
+![Wazuh](https://img.shields.io/badge/Wazuh-SIEM-blue?style=flat-square)
+![Splunk](https://img.shields.io/badge/Splunk-SIEM-black?style=flat-square)
+![Suricata](https://img.shields.io/badge/Suricata-IDS-orange?style=flat-square)
+![Palo Alto](https://img.shields.io/badge/Palo%20Alto-Firewall-red?style=flat-square)
+![FortiGate](https://img.shields.io/badge/FortiGate-Firewall-darkred?style=flat-square)
+![Checkpoint](https://img.shields.io/badge/Checkpoint-Firewall-yellow?style=flat-square)
+![Cisco ASA/FTD](https://img.shields.io/badge/Cisco%20ASA%2FFTD-Firewall-1BA0D7?style=flat-square)
+![pfSense](https://img.shields.io/badge/pfSense-Firewall-darkblue?style=flat-square)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-black?style=flat-square)
+![Wireshark](https://img.shields.io/badge/Wireshark-Packet%20Analysis-lightblue?style=flat-square)
+![Sysmon](https://img.shields.io/badge/Sysmon-Endpoint%20Logging-purple?style=flat-square)
+![Kali Linux](https://img.shields.io/badge/Kali-Linux-557C94?style=flat-square)
+![CompTIA Security+](https://img.shields.io/badge/CompTIA-Security%2B-red?style=flat-square)
+![ISC2 CC](https://img.shields.io/badge/ISC2-CC-006400?style=flat-square)
+
+
 I am a Cybersecurity professional and recent graduate from the University of North Carolina at Charlotte with **3.5+ years of professional experience in network security and security operations**.  
 
 My work focuses on security monitoring, alert investigation, threat detection, and network defense. I have hands-on experience in SOC operations, SIEM analysis, and detection engineering through real-world projects and a completed SOC Detection Lab.
