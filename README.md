@@ -1,6 +1,6 @@
 ## Hi, I'm Varuni Desai 👋
 
-🔐 Cybersecurity Analyst | Blue Team | SOC | Detection Engineering  
+🔐 Cybersecurity Analyst | Network Security | Blue Team | SOC | Detection Engineering  
 
 ![Wazuh](https://img.shields.io/badge/Wazuh-SIEM-blue?style=flat-square)
 ![Splunk](https://img.shields.io/badge/Splunk-SIEM-black?style=flat-square)
