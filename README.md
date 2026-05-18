@@ -2,9 +2,10 @@
 
 🔐 Cybersecurity Analyst | Blue Team | SOC | Detection Engineering  
 
-I am a Cybersecurity graduate student at the University of North Carolina at Charlotte with **3.5+ years of professional experience in network security and security operations**.  
+I am a Cybersecurity professional and recent graduate from the University of North Carolina at Charlotte with **3.5+ years of professional experience in network security and security operations**.  
 
-My work focuses on **security monitoring, alert investigation, threat detection, and network defense**. I am currently building hands-on labs to strengthen my skills in **SOC operations, SIEM analysis, and detection engineering**.
+My work focuses on security monitoring, alert investigation, threat detection, and network defense. I have hands-on experience in SOC operations, SIEM analysis, and detection engineering through real-world projects and a completed SOC Detection Lab.
+
 
 ---
 
@@ -30,39 +31,13 @@ Linux • Windows
 
 ---
 
-## 🔎 What I'm Currently Working On
-
-• Building a **SOC Detection Lab using Wazuh SIEM and Suricata IDS**  
-• Simulating attacker activity using **Kali Linux (Nmap, brute force, scans)**  
-• Developing detection logic using **Sysmon logs and custom rules**  
-• Learning **Python for security automation and log analysis**
+## 🔎 What I'm Currently Doing
+ 
+- Actively seeking full-time opportunities in Cybersecurity (SOC Analyst / Network Security Engineer)
+- Reviewing and strengthening core concepts in threat detection and network security
+- Open to connecting with professionals and recruiters in the cybersecurity space
 
 ---
-
-## 🏗 SOC Lab Architecture
-
-This home lab simulates a small enterprise environment designed to test attack detection, log analysis, and SOC monitoring workflows.
-
-```
-Kali Linux (Attacker)
-        ↓
-pfSense Firewall
-        ↓
-Suricata IDS
-        ↓
------------- Internal Network ------------
-        ↓
-Windows Domain Controller (Active Directory)
-        ↓
-------------------------------------------
-|                                        |
-Windows Endpoint + Sysmon           Linux Endpoint
-|                                        |
------------- Log Forwarding -------------
-        ↓
-Wazuh SIEM
-                  
-```
 
 ---
 
@@ -94,8 +69,8 @@ These projects focus on simulating attacker behavior and developing detection ca
 
 **Master of Science (MS) in Cybersecurity**  
 University of North Carolina at Charlotte  
+Graduated: May 2026 ✅
 GPA: **4.0 / 4.0**  
-Expected Graduation: **May 2026**
 
 Coursework Focus:
 - Security Operations & Threat Monitoring
